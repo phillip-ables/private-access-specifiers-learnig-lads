@@ -43,3 +43,14 @@ this name is a reference variable and by default its value is null
 a private memmber is only accessable where we define it
 
 we can access this name in any method in the constructor
+method will initialize a value for the private name variable
+now we have a method and thorugh the method we are going to be initializing the private String
+
+if you want to access that private member outside the class
+have the public methods in that same class
+through that method access that private member in the class
+
+what if i wanted only the name property
+
+public method thats going to return a string type
+takes no parameters and return name
