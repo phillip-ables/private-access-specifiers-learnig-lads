@@ -16,6 +16,10 @@ public class Student {
         return name;
     }
     
+    private void doSomething() {
+        System.out.println(name+"is doing something");
+    }
+    
     void introduce(){
         System.out.println("name is "+name+" age is "+age);
     }

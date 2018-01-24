@@ -54,3 +54,23 @@ what if i wanted only the name property
 
 public method thats going to return a string type
 takes no parameters and return name
+
+PUBLIC MEthods to access private members
+
+accessors and mutators
+
+to define a private method
+first we need to specify the access specifier as private
+
+SPECIFY THE ACCESS specifier
+
+if your method is going to be static then youre going to use the static key word otherwise we dont need to use any keyword
+
+after, write the return type of the method (VOID)
+
+its not going to take any parameters
+and here were going to have the body
+
+private methods are available inside thre class
+
+cannot access it through a new object in main
