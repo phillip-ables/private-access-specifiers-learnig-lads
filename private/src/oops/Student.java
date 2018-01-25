@@ -8,6 +8,14 @@ public class Student {
     private String name;
     public int age;
     
+    private Student() {
+        
+    }
+    
+    public Student(String iname) {
+        name = iname;
+    }
+    
     public void setName(String iname){
         name = iname;
     }
@@ -17,10 +25,11 @@ public class Student {
     }
     
     private void doSomething() {
-        System.out.println(name+"is doing something");
+        System.out.println(name+" is doing something");
     }
     
     void introduce(){
-        System.out.println("name is "+name+" age is "+age);
+        doSomething();
+        System.out.println(name+" is "+age);
     }
 }

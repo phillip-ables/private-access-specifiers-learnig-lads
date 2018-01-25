@@ -71,6 +71,17 @@ after, write the return type of the method (VOID)
 its not going to take any parameters
 and here were going to have the body
 
-private methods are available inside thre class
+private methods are available inside there class
 
 cannot access it through a new object in main
+ so i can use the private method inside other class methods
+
+ by using private methods
+ you can divide your work into several parts
+
+private access modifier
+if the constructor is private
+than you cant access that class
+  another constructor that is public and takes a string parameters
+
+now we can the public constructor to create an object of that class

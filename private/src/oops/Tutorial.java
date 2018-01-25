@@ -6,7 +6,7 @@ package oops;
  */
 public class Tutorial {
     public static void main(String[] args) {
-        Student phil = new Student();
+        Student phil = new Student("phil");
         phil.setName("Phil");
         phil.age = 23;
         phil.getName();
